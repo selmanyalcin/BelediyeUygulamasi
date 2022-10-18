@@ -1,0 +1,9 @@
+.TopBarJobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  background-color: #e5e1e9;
+  padding: 1%;
+}

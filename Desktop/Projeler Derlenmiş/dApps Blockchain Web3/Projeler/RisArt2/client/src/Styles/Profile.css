@@ -1,0 +1,99 @@
+.ProfileBanner {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Banner {
+  width: 100%;
+  height: 100%;
+}
+.ProfileContent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #e5e1e9;
+}
+.User {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 1%;
+  width: 40%;
+}
+.UserOptions {
+  width: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.BannerTop {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+}
+.NameSectionProfile {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.NameSectionProfile p {
+  margin-top: -20px;
+  align-self: flex-start;
+  font-weight: bold;
+}
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+}
+.ButtonBarProfile {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  background-color: white;
+  justify-content: flex-end;
+  justify-self: flex-end;
+}
+.BottomNavBar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 40%;
+}
+.BottomNavBarLink {
+  color: black;
+  text-decoration: none;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.AboutArea {
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-self: center;
+  align-self: center;
+  min-height: 50vh;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  padding: 1%;
+}
+.Filler {
+  display: flex;
+  flex-direction: column;
+  color: #e5e1e9;
+  background-color: red;
+  width: 100%;
+}

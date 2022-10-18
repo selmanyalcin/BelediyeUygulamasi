@@ -1,0 +1,44 @@
+.Community {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e1e9;
+}
+.CommunityMain {
+  background-color: #e5e1e9;
+  border-radius: 20px;
+  padding: 0.5%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.CommunityInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+.CommunityInfo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+}
+.CommunityInfo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  justify-content: flex-end;
+}
+.SearchBarCommunity {
+  background-color: #e5e1e9;
+  width: 80%;
+  border-radius: 20px;
+}

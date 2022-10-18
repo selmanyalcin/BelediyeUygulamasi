@@ -1,0 +1,347 @@
+/*Header style*/
+
+.Header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5%;
+  position: sticky;
+  top: 0;
+  width: 99%;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+.SearchBar {
+  background-color: #e5e1e9;
+  width: 30%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2%;
+}
+.SearchBar p {
+  color: black;
+  margin-left: 2%;
+}
+.HeaderPP {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+}
+.HeaderNavs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20%;
+  justify-content: flex-end;
+}
+.HeaderNavs Link {
+  margin-right: 2%;
+}
+.HeaderButton {
+  border: none;
+  color: white;
+  width: 90px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #553bb1;
+}
+.MenuButton {
+  display: none;
+  flex-direction: row;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/*NavMenu*/
+
+.NavMenuMain {
+  display: flex;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+  height: 80vh;
+  border-radius: 20px;
+  background-color: white;
+  position: fixed;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 0.5%;
+  align-items: center;
+}
+.NavMenuNav {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 90%;
+  margin-top: 5%;
+  align-items: center;
+}
+.NavMenuNav h3 {
+  margin-left: 6%;
+}
+.NavMenuLink {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 90%;
+  margin-top: 5%;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+.NavMenuButton {
+  width: 100%;
+  height: 50px;
+  background-color: #553bb1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+/*Link style*/
+.Link {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  background-color: white;
+  border: none;
+}
+
+/*Post Style*/
+
+.PostMain {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(145, 146, 153, 0.37);
+}
+.BlockRemove {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  height: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.PostImageArea {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PostInfoArea {
+  background-color: white;
+  width: 100%;
+}
+.PostImage {
+  width: 88%;
+  border-radius: 10px;
+  align-self: center;
+}
+.NameSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  width: 60%;
+}
+.MetricsSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  align-self: flex-end;
+  background-color: white;
+  width: 40%;
+  padding-left: 1%;
+}
+.PostPP {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+.MetricsBottom {
+  display: flex;
+  flex-direction: row;
+}
+.MetricsBottom2 {
+  display: flex;
+  flex-direction: row;
+}
+.MetricsBottom2 p {
+  margin-right: 5px;
+}
+
+/*Comments*/
+
+/*Community*/
+
+.CommunityDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+  height: 100px;
+}
+.CommunityPP {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin-right: 2%;
+}
+.CommunityLink {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 90%;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+}
+
+/*Comments*/
+
+.CommentMain {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 2%;
+  padding: 1%;
+  box-shadow: 0 8px 32px 0 rgba(145, 146, 153, 0.37);
+}
+.CommentorPP {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+}
+.CommentText {
+  background-color: white;
+  align-items: center;
+  margin-left: 1%;
+}
+
+/*Offer*/
+
+.OfferMain {
+  display: flex;
+  flex-direction: row;
+  width: 43%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 2%;
+  align-items: center;
+  margin-left: 2%;
+  margin-top: 2%;
+  height: 100px;
+  justify-content: space-between;
+}
+.OfferDetails {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 3%;
+  justify-content: space-between;
+}
+.ApplyButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+
+  justify-self: flex-end;
+}
+.NameSectionOffer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.NameSectionOffer p {
+  margin-top: -15px;
+}
+
+/*Login-Sign Up*/
+
+.LoginSignUp {
+  background-color: white;
+  padding: 0.1%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 2%;
+  height: 80vh;
+}
+.LoginSignUp input {
+  border: none;
+  height: 50px;
+  background-color: #e5e1e9;
+  border-radius: 5px;
+  font-size: large;
+}
+
+@media (max-width: 1010px) {
+  .OfferMain {
+    width: 90%;
+  }
+}
+
+@media (max-width: 950px) {
+  .NavMenuMain {
+    display: none;
+  }
+  .MenuButton {
+    display: flex;
+  }
+}
+
+@media (max-width: 700px) {
+  .PostMain {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .PostMain {
+    width: 90%;
+  }
+}
+
+@media (max-width: 550px) {
+  .SearchBar {
+    display: none;
+  }
+  .OfferMain {
+    padding: 4%;
+  }
+}

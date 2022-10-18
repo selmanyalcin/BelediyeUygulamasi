@@ -1,0 +1,25 @@
+.CreateArea {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 95%;
+  border-radius: 20px;
+  padding: 1%;
+}
+.CreateArea input {
+  width: 60%;
+  background-color: #e5e1e9;
+  border: none;
+  height: 30px;
+  border-radius: 20px;
+  padding: 1%;
+}
+.ButtonDivPostCreate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  justify-content: flex-start;
+  margin-top: 2%;
+}
